@@ -138,6 +138,22 @@ a {
     font-size: 24px;
     font-weight: bold;
     height: 100%;
-    margin: 0 auto;
 }
 
+.group-fitness{
+text-align: left;
+margin: 50px 165px;
+}
+
+.group-photo{
+    background-image: url("http://hypecharlotte.com/wp-content/uploads/2017/05/3B2F0A84-CE7A-4B5D-BED2-F9B8C27D6839.jpeg"
+);
+background-size: contain;
+display: flex;
+position: relative;
+background-repeat: no-repeat;
+width: 500px;
+height: 450px;
+padding: 0 10px;
+margin: 0 25px;
+}
