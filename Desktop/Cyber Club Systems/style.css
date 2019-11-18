@@ -29,6 +29,10 @@
       box-shadow: 10px 10px grey;
   }
 
+  h2{
+      color: silver;
+  }
+
   .tagline{
       display: flex;
       color: white;
@@ -197,11 +201,65 @@ a {
     font-weight: bold;
     text-align: center;
   }
-  
+
+
+ 
   /* Location Section */
-  
-  .flex-container.locations {
+
+  .bottom{
+      position: relative;
+      top: 920px;
+  }
+
+
+.flex-container.locations {
     padding-top: 5px;
   }
   
+  #locations {
+    background-image: url("https://pbs.twimg.com/media/DKFVhJuX0AApWdJ.jpg");
+    height: 500px;
+    padding-top: 70px;
+    background-attachment: fixed;
+  }
   
+  #locations .flex-container {
+    margin: auto;
+    width: 1100px;
+    color: silver;
+  }
+  
+  .location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: silver;
+  }
+  
+  /* Contact Section */
+  
+  #contact {
+    height: 200px;
+    position: relative;
+    top: 950px;
+  }
+  
+  /* Footer Section */
+  
+  footer {
+    text-align: left;
+    padding-left: 20px;
+    padding: 2px;
+    height: 70px;
+    position: relative;
+    top: 900px;
+    background-color: purple;
+    color: silver;
+  }
+  
+   
