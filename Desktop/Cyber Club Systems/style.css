@@ -249,12 +249,14 @@ a {
     flex-direction: column;
     justify-content: center;
     color: silver;
-    width: 28%;
+    width: 30%;
     border-radius: 20px;
   }
 
   .location img{
       width: 100%;
+      height: 70%;
+      padding: 2px;
   }
   
   /* Contact Section */
