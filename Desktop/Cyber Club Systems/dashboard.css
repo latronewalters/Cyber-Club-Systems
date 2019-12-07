@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    margin-right: 150px;
+}
+
+nav{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-right: 380px;
+}
