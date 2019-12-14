@@ -7,20 +7,75 @@ button{
     background-color: purple;
     color: white;
     margin-right: 150px;
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    padding: 5px 5px;
+    border: 2px solid silver;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 nav{
     background-color: purple;
     color: white;
-    padding: 10px;
+    padding: 12px;
     margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     font-weight: bold;
-    padding-right: 380px;
+    padding-right: 360px;
+    margin-left: -45px;
+    width: 300%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 8%;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+
+.topsearch{
+width: 11%;
+padding-right: 35px;
+margin-left: -55px;
+font-weight: bold;
+}
+
+.topsearch input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+.logout{
+width: 12%;
+padding-left: 18px;
+}
+
+.dashbuttons{
+    margin: 50px 5px;
+}
+
+.dashbuttons a{
+    background-color: purple;
+    color: white;
+    font-size: 40px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
 }
