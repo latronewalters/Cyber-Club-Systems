@@ -24,4 +24,14 @@ body {
     border-radius: 40px;
     text-align: center;
   }
+
+  .btn{
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    margin: 20px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+  }
   
