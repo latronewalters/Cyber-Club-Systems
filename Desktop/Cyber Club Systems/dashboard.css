@@ -133,7 +133,7 @@ main {
     padding: 5px 20px;
     background-color: purple;
     color: white;
-    height: 35%;
+    height: 40%;
     width: 100%;
     font-size: 28px;
     justify-content: center;
@@ -168,7 +168,7 @@ p{
     background-color: purple;
     margin: 20px 50px;
     width: 100%;
-    height: 40%;
+    height: 50%;
     color: white;
     font-size: 28px;
     justify-content: center;
@@ -208,7 +208,7 @@ thead{
     background-color: purple;
     margin: 20px 30px;
     width: 90%;
-    height: 40%;
+    height: 50%;
     color: white;
     font-size: 28px;
     justify-content: center;
@@ -220,13 +220,13 @@ thead{
     background-color: purple;
     margin: 155px 10px;
     width: 107%;
-    height: 30%;
+    height: 40%;
     color: white;
     font-size: 28px;
     justify-content: center;
     text-align: center;
     overflow-y: scroll; 
-    transform: translateY(-620px); 
+    transform: translateY(-420px); 
     padding: 5px;
 }
 
@@ -243,13 +243,13 @@ button{
     background-color: purple;
     margin: 155px 45px;
     width: 100%;
-    height: 30%;
+    height: 40%;
     color: white;
     font-size: 28px;
     justify-content: center;
     text-align: center;
     overflow-y: scroll; 
-    transform: translateY(-620px); 
+    transform: translateY(-420px); 
     padding: 5px;
 }
 
@@ -257,14 +257,14 @@ button{
     background-color: purple;
     margin: 155px 35px;
     width: 88%;
-    height: 30%;
+    height: 40%;
     color: white;
     list-style: none;
     font-size: 26px;
     justify-content: center;
     text-align: center;
     overflow-y: scroll; 
-    transform: translateY(-620px); 
+    transform: translateY(-420px); 
     padding: 5px;
 }
 
@@ -276,4 +276,44 @@ button{
     margin: 10px 0;
     padding: 20px 0;
     line-height: 3em;
+}
+
+.table7{
+    background-color: purple;
+    width: 107%;
+    height: 75%;
+    margin-left: 15px;
+    color: white;
+    list-style: none;
+    font-size: 26px;
+    justify-content: center;
+    text-align: center;
+    overflow-y: scroll;
+    transform: translateY(-750px);
+    padding: 5px;
+}
+
+.tdinvoice{
+    background-color: greenyellow;
+    background-size: cover;
+}
+
+.tdgross{
+    background-color: blue;
+    background-size: cover;
+    color: white;
+}
+.table8{
+    background-color: purple;
+    width: 107%;
+    height: 75%;
+    margin-left: 45px;
+    color: white;
+    list-style: none;
+    font-size: 26px;
+    justify-content: center;
+    text-align: center;
+    overflow-y: scroll;
+    transform: translateY(-750px);
+    padding: 5px;  
 }
